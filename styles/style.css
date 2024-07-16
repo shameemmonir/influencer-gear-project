@@ -1,0 +1,69 @@
+body{
+    max-width: 1440px;
+    margin: 0 130px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.navbar a{
+    text-decoration: none;
+}
+/* banner section start here  */
+.banner-container{
+    display: flex;
+    margin-top: 80px;
+
+}
+.banner-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.btn-primary{
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+}
+.banner-image{
+    background-image: url(../images/Circle\ design.svg);
+    width: 50%;
+    background-repeat: no-repeat;
+}
+
+/* logos section start here  */
+.logos-container{
+    margin: 130px 0;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: 1px solid #535353;
+    align-items: center;
+    padding: 15px 0;
+}
+
+/* popular collection style start here  */
+.populer-collection-container h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.populer-container{
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* width: 30%; */
+    padding: 20px 0px 20px 20px;
+    border-radius: 8px;
+}
