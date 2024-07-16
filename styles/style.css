@@ -1,47 +1,57 @@
-body{
+*{
+    margin: 0;
+}
+header, main {
     max-width: 1440px;
     margin: 0 130px;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .navbar ul {
     display: flex;
     list-style: none;
     gap: 25px;
 }
-.navbar a{
+
+.navbar a {
     text-decoration: none;
 }
+
 /* banner section start here  */
-.banner-container{
+.banner-container {
     display: flex;
     margin-top: 80px;
 
 }
-.banner-description{
+
+.banner-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50%;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #E02C6D;
     color: white;
     border-radius: 20px;
     padding: 10px 20px;
     border: none;
 }
-.banner-image{
+
+.banner-image {
     background-image: url(../images/Circle\ design.svg);
     width: 50%;
     background-repeat: no-repeat;
 }
 
 /* logos section start here  */
-.logos-container{
+.logos-container {
     margin: 130px 0;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -51,19 +61,41 @@ body{
 }
 
 /* popular collection style start here  */
-.populer-collection-container h1{
+.populer-collection-container h1 {
     text-align: center;
     font-size: 2rem;
 }
-.populer-container{
+
+.populer-container {
     margin-bottom: 80px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
-.box{
+
+.box {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     /* width: 30%; */
     padding: 20px 0px 20px 20px;
     border-radius: 8px;
+}
+
+/* footer section style here  */
+.footer {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    height: 150px;
+    background-color: #0A0826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    padding: 0 10px;
+    gap: 20px;
 }
